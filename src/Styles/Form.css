@@ -1,0 +1,70 @@
+.formContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form{
+    width: 60vw;
+    height: 20vw;
+}
+
+.FormFirstRow{
+    width: 63vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FormFirstRow input{
+    width: 30vw;
+    height: 3vw;
+    border-radius: 6px;
+    border: 1px solid rgb(125, 125, 125);
+}
+
+.FormSecondRow{
+    height: 4vw;
+    background: rgb(172,12,175);
+    background: linear-gradient(90deg, rgba(172,12,175,1) 0%, rgba(180,17,194,1) 26%, rgba(229,0,225,1) 88%, rgba(239,0,255,1) 100%);
+    margin-top: 30px;
+    width: 63.2vw;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Form img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    width: 63vw;
+    height: 400px;
+    position: absolute;
+}
+
+.topTxt{
+    position: absolute;
+    bottom: 230px;
+    width: 500px;
+    left: 500px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.6px;
+}
+
+.bottomTxt{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.6px;
+    left: 500px;
+    bottom: -70px;
+    position: absolute;
+    z-index: 3;
+}
